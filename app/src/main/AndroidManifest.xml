@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileProgramingLabReport">
         <activity
+            android:name=".LabTwo"
+            android:exported="false" />
+        <activity
             android:name=".LabOne"
             android:exported="false" />
     </application>
