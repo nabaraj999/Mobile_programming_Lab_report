@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileProgramingLabReport">
         <activity
+            android:name=".FragmentDemoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondFragment"
+            android:exported="false" />
+        <activity
+            android:name=".FirstFragment"
+            android:exported="false" />
+        <activity
+            android:name=".LabGoogleMapActivity"
+            android:exported="false" />
+        <activity
             android:name=".LabPopupMenuActivity"
             android:exported="false" />
         <activity

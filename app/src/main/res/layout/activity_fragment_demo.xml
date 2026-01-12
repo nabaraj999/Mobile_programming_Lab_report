@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Static Fragment (added via XML) -->
+    <fragment
+        android:id="@+id/staticFragment"
+        android:name="com.example.app.FirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <!-- Container to add fragments dynamically -->
+    <FrameLayout
+        android:id="@+id/dynamicContainer"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#DDDDDD" />
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/btnAddFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add First Fragment Dynamically" />
+
+    <Button
+        android:id="@+id/btnAddSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Replace with Second Fragment" />
+
+</LinearLayout>
