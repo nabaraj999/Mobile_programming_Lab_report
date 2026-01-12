@@ -6,7 +6,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
-class MainActivity extends AppCompatActivity
+class LabOne extends AppCompatActivity
 {
 
     TextView txtResult;
